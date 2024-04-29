@@ -1,7 +1,11 @@
-import "./App.css";
+import DisplayAdvice from "./components/DisplayAdvice";
 
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      <DisplayAdvice />
+    </>
+  );
 }
 
 export default App;
